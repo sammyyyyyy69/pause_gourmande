@@ -1,0 +1,235 @@
+
+header {
+	padding:0;
+	display:flex;
+	background-size: cover;
+	margin:0;
+	width: 1349px;
+	height: 55.44px;
+	background-color: #ff0000ae;
+	position: fixed;
+	
+  }
+  .a{
+	display: inline-block;
+	padding-top: 17.5px;
+  
+  }
+  .input{
+	display: inline-block;
+  }
+
+  .search{
+	display: inline-block;
+	margin-left: 400px;
+	background-size:cover ;
+   
+  }
+  .rech{
+	border-radius: 15px;
+	padding: 4px;
+	padding-inline: 14px;
+	border-color: #818181;
+	border-width: 1px;
+	margin-top: 17.5px;
+  }
+  
+  .psearch{
+	width: 50px;
+	margin-left: 380px;
+	height: 0.2px;
+  }
+  .acceuil{
+	margin-inline: 30px;
+	color: #36362f;
+	font-style: oblique;
+	font-family: mv boli;
+	text-decoration: none;
+	margin-left: 40px;
+	
+	
+	
+	}
+	.contact{
+	  margin-inline: 30px;
+	  color: #36362f;
+	  font-style: oblique;
+	  padding: 10px;
+	  font-family: mv boli;
+	  text-decoration: none; 
+	}
+	.menu{
+	  margin-inline: 30px;
+	color: #36362f;
+	font-style: oblique;
+	padding: 10px;
+	font-family: mv boli;
+	text-decoration: none;
+	margin-left: 40px;
+	}
+	.a:hover{
+	  background-color: #47426573;
+	  padding-block: 16px;
+	  padding-inline: 0.1px;
+	  padding-top: 17.5px;
+	  color: #ffffff;
+	  border-radius: 4px;
+	}
+	footer {
+		background-color:#c1c1c1ae;
+		padding: 20px;
+		text-align: center;
+	  }
+	  
+	  body {
+		  font-family: Arial, sans-serif;
+		  margin: 0;
+		  padding: 0;
+		  
+	  }
+	  .container {
+		  max-width: cover;
+		  margin: cover;
+		  padding: 20px;
+		  background-size: cover;
+		  background-image: url(images/O\ ambiente\ do\ restaurante\ fica\ desfocado\ atrás\ da\ superfície\ superior\ de\ uma\ mesa\ de\ madeira\ papel\ de\ parede\ vertical\ para\ celular\ _\ Foto\ Premium.jpg);
+		  background-color: black;
+		  border-radius: 0px;
+		  box-shadow: 0 0 10px rgba(255, 0, 0, 0.1);
+	  }
+	  h1 {
+		  text-align: center;
+		  color: #333;
+	  }
+	  p {
+		  margin-bottom: 15px;
+	  }
+	  label {
+		  font-weight: bold;
+		  color: #fff;
+	  }
+	  input[type="email"],
+	  textarea {
+		  width: 100%;
+		  margin-bottom: 0px;
+		  border: 3px solid #000000;
+		  border-radius: 5px;
+		  height: 1cm;
+	  }
+
+	  input[type="message"],
+	  textarea{
+		  height:4cm;
+		}
+
+	  input[type="submit"] {
+		  width: 100%;
+		  padding: 10px;
+		  background-color: #ff8204db;
+		  color: #fff;
+		  border: none;
+		  border-radius: 5px;
+		  cursor: pointer;
+		  border: 3px solid #000000;
+		  transition: background-color 0.3s ease;
+	  }
+	  input[type="submit"]:hover {
+		  background-color: #000000c2;
+	  }
+	  #map {
+		  width: 100%;
+		  height: 300px;
+		  margin-bottom: 20px;
+		  border-radius: 5px;
+	  }
+	  footer {
+		  background-color: #333;
+		  padding: 20px;
+		  text-align: center;
+		  color: #fff;
+		  border-radius: 0 0 10px 10px;
+	  }
+	  footer a {
+		  color: #fff;
+		  text-decoration: none;
+	  }
+	  footer a:hover {
+		  text-decoration: underline;
+	  }
+
+	  .adresses {
+		color: #ffffff;
+		font-size: 25px;
+		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+		font-weight: 900;
+		margin-bottom:0px;
+		margin-top:0px;
+		
+	  }
+	  .cont {
+		color: rgb(255, 255, 255);
+		font-style: oblique;
+		margin-top:-85px;
+		margin-bottom:0px;
+		margin-left: 193px;
+		margin-right: 0px;
+		font-size: 50px;
+		font-weight:bold;
+	  }
+	  .introo{
+		background-image: url(./images/PG.jpg);
+		background-size:cover;
+		height:2cm;
+		width: 2cm;
+		margin-left:0px;
+		border-radius:180px;
+	}
+	.introoo{
+		background-image: url(./images/PG.jpg);
+		background-size:cover;
+		height:2cm;
+		width: 2cm;
+		margin-top: -105px;
+		margin-left:1130px;
+		border-radius:180px;}
+
+.menuu{
+padding: 0;
+display:inline-block;
+margin: 0;
+width: 100%;
+position:static;
+background-color:beige ;
+}
+
+.logo{
+	display:inline-block;
+	margin-right: 70px;
+	font-style: oblique;
+	color: rgb(255, 255, 255);
+	background-color: rgba(48, 41, 92, 0.658);
+	padding-inline: 20px;
+	font-family:Ink Free;
+	border-radius: 1px;
+	
+	
+ 
+ }
+
+ input[type="nom"]{
+	 width: 40%;
+	 margin-bottom: 0px;
+	 border: 1px solid #ccc;
+	 border-radius: 5px;
+	 height: 1cm;
+	 border: 3px solid #000000;
+ }
+
+ input[type="prenom"]{
+	 width: 40%;
+	 margin-bottom: 0px;
+	 border: 1px solid #ccc;
+	 border-radius: 5px;
+	 height: 1cm;
+	 border: 3px solid #000000;
+ }

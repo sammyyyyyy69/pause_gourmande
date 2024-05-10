@@ -1,0 +1,376 @@
+body{
+   margin: 0;
+   background-color:rgba(48, 41, 92, 0.658);
+   background-size: cover;
+   width:cover;
+}
+
+.header{
+   margin-top: 0;
+   margin-left: 0;
+   margin-bottom:20px;
+   width: cover;
+   height: 500px;
+   background-image: url(./image/backcuisine.jpg) ;
+   background-size:cover; 
+   box-shadow: 0 30px 40px black;
+   
+}
+.intro{
+   background-image: url(image/PG.jpg);
+   background-size: cover;
+   height: 200px;
+   width: 200px;
+   margin-left: 440px;
+   margin-top: 130px;
+   border-radius: 100px;
+   
+   
+
+}
+.sav{
+   margin-left: 200px;
+   margin-bottom:200px;
+   color: rgb(255, 255, 255);
+
+}
+.savoir{
+   font-size: 20px;
+   display: inline;
+}
+.ensavoir{
+   display:inline-block;
+   width: 200px;
+   position: right;
+   margin-right:0 ;
+   margin-left: 570px;
+   margin-top: -170px; 
+   color: rgb(0, 0, 0);
+   font-family:Comic Sans MS;
+   font-size: 17px;
+   filter: blur(2.2px);
+
+   
+
+}
+.a{
+   display: inline-block;
+}
+.sav{
+   position: right;
+   margin-left: 500px;
+   color: rgb(255, 255, 255);
+   font-family:Comic Sans MS;
+   font-size: 25px;
+   height: 20px;
+   width: 150px;
+   margin-top: 40px;
+   margin-bottom: 0;
+   display: inline-block;
+
+}
+.sous{
+   margin-left: 300px;
+   margin-top: 40px;
+   color: rgb(255, 255, 255);
+   font-family:Ink Free;
+   font-size: 50px;
+
+}
+
+.tab2 {
+   width: 400px;
+   height: 600px;
+   margin-left: 830px;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   border-radius: 15px;
+   box-shadow: 20px 15px 30px rgb(0, 0, 0);
+   overflow: hidden;
+ }
+
+.tab1 {
+   width: 400px;
+   height: 600px;
+   margin-left: 830px;
+   margin-top: 200px;
+   margin-bottom: 50px;
+   border-radius: 15px;
+   box-shadow: 20px 15px 30px rgb(0, 0, 0);
+   overflow: hidden;
+ }
+
+
+ .slideshow {
+   width: 100%;
+   height: 100%;
+   position:relative;
+ }
+ 
+ .slide {
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   opacity: 0;
+   background-size: cover;
+   background-position: center;
+   animation: slide 10s infinite;
+ }
+ 
+ .slide:nth-child(1) {
+   animation-delay:0s;
+ }
+ 
+ .slide:nth-child(2) {
+   animation-delay: 5s;
+ }
+ 
+ .slide:nth-child(3) {
+   animation-delay: 10s;
+ }
+ 
+
+ @keyframes slide {
+   0% {
+     opacity: 0;
+   }
+   20% {
+     opacity: 1;
+   }
+   80% {
+     opacity: 1;
+   }
+   100% {
+     opacity: 0;
+   } }
+
+.menuu{
+   padding: 0;
+   display:inline-block;
+   margin: 0;
+   width: 100%;
+   position:static;
+   background-color:beige ;
+   
+
+
+}
+.search{
+   display: inline-block;
+   margin-left: 360px;
+   background-size: cover;
+   width: 1px;
+
+
+}
+.losearch{
+   width: 50px;
+   margin-left: 340px;
+   height: 0.2px;
+}
+.input{
+   display: inline-block;
+
+}
+.rech{
+   border-radius:15px ;
+   padding: 4px;
+   padding-inline: 14px;
+   border-color: rgba(128, 128, 128, 0.603);
+   border-width: 1.2px;
+}
+.logo{
+   display:inline-block;
+   margin-right: 70px;
+   font-style: oblique;
+   color: rgb(255, 255, 255);
+   background-color: rgba(48, 41, 92, 0.658);
+   padding-inline: 20px;
+   font-family:Ink Free;
+   border-radius: 1px;
+   
+   
+
+}
+.titre{
+   margin-top: 15px;
+   margin-inline:350px;
+   margin-bottom: 100px;
+   color: rgb(206, 206, 162);
+   font-style: oblique;
+}
+.bien{
+   margin-top: 40px;
+   margin-bottom: 10px;
+   margin-inline:390px;
+   color: rgb(66, 66, 61);
+   padding-bottom: 0;
+   font-style: oblique;
+
+}
+.accueil{
+     margin-inline: 30px;
+     color: rgb(43, 43, 39);
+     font-style:oblique;
+     padding: 10px;
+     font-family: mv boli;
+     text-decoration: none;
+   
+
+
+}
+
+.contact{
+   margin-inline: 30px;
+   color: rgb(43, 43, 39);
+   font-style:oblique;
+   padding: 10px;
+   font-family: mv boli;
+   text-decoration: none;
+   
+
+
+}
+.menu{
+   margin-inline: 30px;
+   color: rgb(43, 43, 39);
+   font-style:oblique;
+   padding: 10px;
+   font-family:mv boli;
+   text-decoration: none;
+
+}
+.close{
+   width: 1330px;
+   height: 50px;
+   margin-top: 50px;
+   display: inline-flex;
+
+
+}
+.txtf{
+   margin-left: 575px;
+   font-family: Candara;
+   font-size:14px ;
+   margin-left: 0.1px;
+
+
+
+}
+.final{
+   width: 1330px;
+   height: 300px;
+   
+   background-size: cover;
+   background-color: rgb(204, 204, 204);
+   font-size: 12px;
+   
+}
+
+.plus{
+   display: inline-flex;
+   color: gray;
+}
+
+.pr{
+   margin-top: 100px;
+   margin-left: 500px;
+}
+.nm{
+   margin-left: 90px;
+}
+.product{
+   margin-left:0px;
+   display: flex;
+   margin-block: 50px;
+
+}
+.fff{
+   margin-inline: 100px;   
+}
+.fi{
+   color: gray;
+}
+.mm{
+   color: gray;
+}
+.nn{
+   color: gray;
+}
+.a:hover{
+   background-color: rgba(76, 70, 109, 0.493);
+   padding-block: 16px;
+   padding-inline: 0.1px;
+   padding-top: 17.5px;
+   color: #ffff;
+   border-radius: 4px;
+   
+
+}
+.co{
+   color: gray;
+}
+
+
+.ensavoir:hover{
+   color: rgb(209, 193, 193);
+   filter: blur(0);
+}
+.logo:hover{
+   background-color: rgba(16, 6, 75, 0.753);
+}
+.rech:hover{
+   background-color: rgba(128, 128, 128, 0.466);
+}
+.titles{
+   color: black;
+   font-size: 16px;
+}
+
+.apr{
+position: right;
+margin-left:1000px;
+color: #ffff;
+font-family:Ink Free;
+font-weight:900;
+font-size: 30px;
+
+}
+.container1 {
+   position: cover;
+   width:900px; 
+}
+
+.image_f {
+   width: 900px;
+   height: 700px;
+   margin-top:-700px;
+   margin-left:-100px;
+}
+
+
+.container2 {
+   position: cover;
+   width: 700px; 
+}
+
+.image_f2 {
+   width: 900px;
+   height: 700px;
+   margin-top:-750px;
+   margin-left: -100px;
+
+}
+
+
+.ecri{
+   font-size:35px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color :rgb(255, 255, 255);
+   font-weight: 800px;
+   margin-bottom: -100px;
+   background-image: url(./image/backcuisine2.jpg);
+   box-shadow: 0px 20px 25px rgb(0, 0, 0) ,0px -20px 25px rgb(0, 0, 0);
+   background-size: cover;
+   text-shadow:  0px 20px 25px rgb(0, 0, 0),0px -20px 25px rgb(0, 0, 0);
+}
