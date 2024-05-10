@@ -109,7 +109,7 @@ main {
   border: #363131;
   border-radius: 10%;
   text-align: center;
-  background-image: url(images/backcuisine2.jpg);
+  background-image: url(backcuisine2.jpg);
   background-size: cover;
   color: #fff;
   font-size: 20px;
@@ -130,7 +130,7 @@ h2.category{
   padding-bottom: 1cm;
   padding-left: 13cm;
   padding-right:13cm;
-  background-image: url(./images/backcuisine.jpg) ;
+  background-image: url(backcuisine.jpg) ;
   box-shadow: 0px 20px 25px rgb(0, 0, 0) ,0px -20px 25px rgb(0, 0, 0);
   font-size: 35px;
   font-weight: 700;
