@@ -11,13 +11,13 @@ body{
    margin-bottom:20px;
    width: cover;
    height: 500px;
-   background-image: url(./image/backcuisine.jpg) ;
+   background-image: url(backcuisine.jpg) ;
    background-size:cover; 
    box-shadow: 0 30px 40px black;
    
 }
 .intro{
-   background-image: url(image/PG.jpg);
+   background-image: url(PG.jpg);
    background-size: cover;
    height: 200px;
    width: 200px;
@@ -369,7 +369,7 @@ font-size: 30px;
    color :rgb(255, 255, 255);
    font-weight: 800px;
    margin-bottom: -100px;
-   background-image: url(./image/backcuisine2.jpg);
+   background-image: url(backcuisine2.jpg);
    box-shadow: 0px 20px 25px rgb(0, 0, 0) ,0px -20px 25px rgb(0, 0, 0);
    background-size: cover;
    text-shadow:  0px 20px 25px rgb(0, 0, 0),0px -20px 25px rgb(0, 0, 0);
